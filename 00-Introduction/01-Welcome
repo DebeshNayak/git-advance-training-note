@@ -1,0 +1,8 @@
+Welcome:
+-------
+We know about:
+  - New features of Java 7.
+  - Advanced features of Java like
+    - How to architect your Java code using syntax such as local and anonymous inner classes
+    - How to do test driven development with assertions
+    - How to use multiple threads with the thread class and the runnable interface
