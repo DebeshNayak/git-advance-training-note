@@ -1,0 +1,9 @@
+1. The standard edition of Java is referred to as _____.
+Ans: Java SE
+
+2. What is the OS X terminal command to check the version of Java you are currently running?
+Ans: javac -version
+
+3. To check that Eclipse is running the correct version of Java check the compiler
+  compliance level and the installed JREs under Preferences/Java.
+Ans: Yes, this is true.
