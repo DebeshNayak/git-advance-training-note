@@ -1,0 +1,38 @@
+An overview of Java 7 new features:
+---------------------------------
+what's new in Java 7:
+* code simplification:
+1. the diamond operator's data type only needs to be set once!
+old:
+ArrayList<String> list = new ArrayList<String>();
+
+new:
+ArrayList<String> list = new ArrayList<>();
+-----------
+2. try-with-resources eliminates a lot of code
+old:
+FileStream stream;
+try{
+  stream = new FileStream(...);
+  ...do something...
+} catch(Exception e){
+} finally {
+  stream.close();
+}
+
+new:
+try (FileStream stream = new FileStream(...)){
+  ...do something...
+} catch(Exception e){
+}
+----------
+3. numeric literals can include underscores:
+old:
+  int largeValue = 1000000;
+new:
+  int largeValue = 1_000_000;
+--------------------
+* other new features
+  - use String values in switch statements
+  - new file system API with class Path, Paths, Files, FileSystem and more
+  * new support dynamic languages

@@ -1,0 +1,6 @@
+Exploring the simplified use of generics:
+- If we're using classes that use generic declarations such as ArrayList and many other collection classes,
+  in Java 7, you only need to declare the data type of the contained objects once in the variable declaration.
+- You don't have to re-declare it in the constructor method. It will save a little time in your coding and
+  in the maintenance of your Java programs.
+-----

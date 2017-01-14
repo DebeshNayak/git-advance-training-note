@@ -1,0 +1,7 @@
+Using underscores in numeric literals:
+-------------------------------------
+- The underscores are essentially ignored by the compiler.
+- The compiler doesn't need those underscores to know that, that's a million,
+  but adding them makes it easier for the human eye i.e. the programmers to look
+  at and parse the value very quickly.
+Example: 03-NumericLiterals project

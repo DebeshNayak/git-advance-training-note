@@ -1,0 +1,15 @@
+1. Which of the following are new features in Java 7?
+Ans:
+- String values can be used in switch statements.
+- Data types of a contained class only need to be declared once.
+- underscores can be used to make numerical literals easier to read.
+
+2. Which of the following lines of code properly demonstrates use of the simplified
+  generics in Java 7?
+Ans: ArrayList<Olive> olive2 = new ArrayList<>();
+
+3. Java 7 ignores _____ in numerical literals.
+Ans: underscores
+
+4. Switch statements before Java 7 could not evaluate _____.
+Ans: strings
