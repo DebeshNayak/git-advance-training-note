@@ -1,0 +1,8 @@
+Using instance field initializers:
+- Instance field initializer are used for initializing non-static fields
+- Instance field initializer are a block of code without any keywords before the opening brace,
+- And this code will be executed before any constructor methods
+- It's especially handy where a class has more than one version of the constructor method,
+  but you have a certain kind of code that you always want to execute, no matter which version
+  of the constructor method is called.
+Example: 06-InstanceFieldInitializer project

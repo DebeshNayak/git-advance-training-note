@@ -4,3 +4,4 @@ Exploring the simplified use of generics:
 - You don't have to re-declare it in the constructor method. It will save a little time in your coding and
   in the maintenance of your Java programs.
 -----
+Example: 02-SimplifiedGenerics project

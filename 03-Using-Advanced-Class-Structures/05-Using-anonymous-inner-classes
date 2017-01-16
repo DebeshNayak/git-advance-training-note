@@ -1,0 +1,8 @@
+Using anonymous inner classes:
+- An anonymous class doesn't have a name, it's defined and used exactly once.
+- So if you want to work with inner classes, you can choose from
+  - local inner classes, which have names,
+  - or anonymous inner classes, which don't have names.
+- Either way, you're defining class that's local to the current code block.
+- The anonymous inner class is only be available within the code block in which it's defined.
+Example: 09-AnonClasses project

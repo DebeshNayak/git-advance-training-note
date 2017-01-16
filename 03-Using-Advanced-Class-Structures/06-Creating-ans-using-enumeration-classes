@@ -1,0 +1,13 @@
+Creating and using enumeration classes:
+- EnumClasses is a special type of class that can be used to contain
+  values that serve as constant.
+- By using EnumClasses you can guarantee the correctness of your choices,
+- you'll essentially localized the spelling of the options in a single class
+- Then use those options everywhere else in the application.
+-----------
+- EnumClasses can make your application much more sturdy and easier to maintain
+  in the long run, and as long as you know the trick for how to create private
+  strings and private constructors, you can add as many fields and build in as many
+  calculations into the construction of these options as you want to.
+
+Example: 10-EnumClasses project

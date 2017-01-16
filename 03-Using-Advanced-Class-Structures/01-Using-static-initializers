@@ -1,0 +1,15 @@
+Using static initializers:
+-------------------------
+- Static initializer is used to initialize complex static fields in classes.
+
+- Static initializers are called, the first time a static object is referenced anywhere
+  in the application.
+- It's only called once, no matter how many references to that class which contains that
+  static initializer,
+- Static initializer will only be called the first time it's needed,
+
+- Static initializers are great for:
+  1. Initializing the values of "complex objects"
+  2. Whenever you need to do any logical operations, including evaluating current
+    state of the application before you assign the one and only value to the static object.
+Example: 05-StaticInitilizer project

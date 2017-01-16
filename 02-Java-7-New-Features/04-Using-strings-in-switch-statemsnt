@@ -4,3 +4,4 @@ using strings in switch statements:
 - In Java 7, you can use switch to evaluate a string.
 - Up through Java 6, it could only evaluate primitive variables, that is floats,
   longs, booleans, integers, and so on.
+Example: 04-StringInSwitch project

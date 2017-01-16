@@ -1,0 +1,7 @@
+Using local inner classes:
+- A class that's defined within a code block, for example, a code block that's a
+  part of the method definition and is only visible within that code block.
+- We can define these local inner classes, whenever you want to define functionality
+  it's only ever going to be called in this one location,
+- It's a way of creating complex functionality, but keeping it hidden from the rest
+  of the application.

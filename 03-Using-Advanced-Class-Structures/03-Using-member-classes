@@ -1,0 +1,11 @@
+Using member classes:
+- In the world of object-oriented programming we use the term encapsulation to talk about hiding data.
+- In Java, you can hide data as private fields, but you can also create member classes that are contained
+  within other classes and those member classes can be the ultimate sort of encapsulation.
+-------------
+- The advantage of member classes is that you can define classes that are available only within the containing
+  class.
+- In this case, I've made a decision that this class is only relevant and should only be callable from within the OliveJar.
+- Whether you architect your code this way is completely up to you, but Java supports this very strong approach to
+  encapsulation of both "data" and "functionality".
+Examples: 07-MemberClasses project

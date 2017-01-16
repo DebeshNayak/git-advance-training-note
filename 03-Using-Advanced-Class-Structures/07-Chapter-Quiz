@@ -1,0 +1,15 @@
+1. A static initializer is called each time a static object is called.
+Ans: False
+
+2. A ___________ class is only available through the ____________ class.
+Ans: member, containing
+
+3. A local inner class is only visible _________________ .
+Ans: within its containing code block
+
+4. An anonymous inner class is defined and used exactly once.
+Ans: True
+
+5.  _____ class allows you to define a set of constants that can be used throughout
+your program.
+Ans: enum
