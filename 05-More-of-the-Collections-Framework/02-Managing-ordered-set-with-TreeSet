@@ -1,0 +1,11 @@
+Managing ordered set with TreeSet:
+- The TreeSet implements everything the HashSet does,
+- It also keeps everything in an order that you can control by implementing an interface called comparable
+  in the class that you're storing.
+- Each time an object is added to the TreeSet, the TreeSet will loop through all
+  of its objects and resort them for you.
+- This results in the TreeSet being slower than say the HashSet.
+- So the comparison between HashSet and TreeSet:
+  - HashSet is faster,
+  - But the TreeSet lets you sort your data automatically as you add, remove, and otherwise organize your objects.
+Example: 15-UseTreeSet project

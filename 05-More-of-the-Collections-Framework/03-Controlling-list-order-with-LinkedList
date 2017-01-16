@@ -1,0 +1,9 @@
+Controlling list order with LinkedList:
+- We can use ArrayList class to contain an order list of data.
+- The ArrayList is high performance and very easy to use.
+- But it has a drawback, you can add new items to the end of an ArrayList,
+  but you can't arbitrarily place new items within it, and that's where the LinkedList class comes into play.
+- The LinkedList class can help you manage objects in a finer way than the ArrayList.
+- It gives you the ability to add objects in specific locations of the collection,
+  and it will retain that order as long as the collection stays in memory.
+Example: 16-UseLinkedList project

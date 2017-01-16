@@ -1,0 +1,17 @@
+Managing unordered sets with HashSet:
+------------------------------------
+- Classes such as ArrayList and HashMap, which allow you to manage ordered and
+  unordered sets of data.
+- These classes are parts of something called the collections framework, a collection
+  of classes that do different things with collections of data in your Java applications.
+- All the classes of the Collection Framework are the classes of the java.util package.
+-------------
+HashSet: (highest performance and simplest of implementation)
+- Now here's the thing about a set.
+- Each of these objects can only be added to the set once,
+  and if I try to add an object again it'll be ignored.
+- The set can contain one reference to each object and one reference to null.
+- Advantage: HashSet is that in comparison to say the TreeSet it's faster
+- If all you need to do is to keep a set of objects in a collection, and you want
+  to ensure that each object has only been added once, the HashSet is a great way to do it.
+Example: 14-UsehashSet project

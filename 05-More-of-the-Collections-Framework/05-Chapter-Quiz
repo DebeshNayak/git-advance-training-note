@@ -1,0 +1,11 @@
+1. Which of the following statements are true of the hashset in Java?
+Ans: A hashset can only have one object of each type.
+
+2. A treeset automatically sorts the elements of the set dependent _________.
+Ans: on the implemented compare interface
+
+3. Where can you place a new element in a linked list?
+Ans: anywhere in the set
+
+4. Which method would you use if you wanted to both reference and remove an object from a queue?
+Ans: poll()

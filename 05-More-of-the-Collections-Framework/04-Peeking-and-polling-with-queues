@@ -1,0 +1,29 @@
+Peeking and polling with queues:
+- The LinkedList class is one of the many classes in the Collections framework.
+- It implements an interface called Queue.
+- These classes typically are used for first- in-first-out or FIFO sorts of operations.
+- They all support these methods listed in the grid shown here.
+- You can Insert, Remove, or Examine objects within a queue.
+  - To Insert, you can call add or offer,
+  - to Remove, you can call remove or poll, and
+  - to Examine, you can call element or peek.
+- The difference between the methods in the second and third section is that
+  if one of the methods in the second column fails it will throw an exception,
+  whereas if you call a method in the third column, and it fails, it will just return some
+  special value and won't need exception handling.
+
+  +-----------+--------------------+--------------------+
+  |           |    Throw exception | Returns special val|
+  +-----------------------------------------------------+
+  |Insert     |  add(e)            | offer(e)           |
+  +-----------------------------------------------------+
+  |Remove     |  remove()          | poll()             |
+  +-----------------------------------------------------+
+  |Exammine   |  element()         | peek()             |
+  +-----------+--------------------+--------------------|
+
+- You'll find SynchronousQueues, PriorityQueues, PriorityBlockingQueues, and others called Deque
+  which is normally pronounced deck.
+- Explore the API documentation for all of these classes to find out all the different ways
+that you can manage your collections.
+Example: 17-Queues project
