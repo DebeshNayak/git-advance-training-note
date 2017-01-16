@@ -1,0 +1,11 @@
+Instantiating classes dynamically:
+- We can get the classes name and also references to all of
+  the classes members such as constructor methods, conventional methods, and fields.
+- The reflection API gives you enormous capabilities in terms of dynamic instantiation
+  of Java objects and dynamic invocation of Java code.
+- But it also puts greater responsibility on you as the programmer to get the code
+  right, because Java, when you use it in its conventional form, gives you very
+  strong data typing and catches most type mismatches during compilation.
+- But when you're working dynamically, you have to catch it yourself or interpret
+  and fix the error messages that you see at runtime.
+Example: 12-TypeInfo project

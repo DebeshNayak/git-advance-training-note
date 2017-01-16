@@ -1,0 +1,20 @@
+Using the Class class:
+- The Java reflection API contains classes and methods that allow you to dynamically
+  instantiate and interrogate classes.
+- This allows you to build highly dynamic applications, loading classes to find,
+  say, an XML or other kinds of text files or handling other kinds of processes
+  where you don't know the names of classes when you're coding.
+- Each object that you create in a Java application has an associated class of which
+  that object is an instance, and you can find out using the Class's class, what that
+  class name is and what its capabilities are.
+- There's a lot more you can do with it, including getting information about constructors,
+  methods, fields and other members of the class.
+----------------
+- We can get a reference to an object's class by using the getClass().
+- This method is defined in the object class, that's the ultimate super class of the
+  entire Java class hierarchy.
+- So it's available in all objects and returns an instance of the Class class.
+- Once you have that, you can get the classes name and also references to all of
+  the classes members such as constructor methods, conventional methods, and fields.
+----------------
+Example: 11-TheClassClass project.

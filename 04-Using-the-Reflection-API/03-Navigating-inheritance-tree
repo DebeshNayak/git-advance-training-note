@@ -1,0 +1,16 @@
+Navigating inheritance trees:
+- Java greatly depends on the use of inheritance to manage the relationship between
+  different classes.
+- The Reflection API gives you tools that let you walk up the inheritance tree.
+- Once you have an object that you have a reference to you can walk up to its super class and
+  to its super class all the way up to the top level class object.
+- You can always walk up the inheritance tree, but you can't easily walk down.
+- We can find out the package of a class using Package class,
+  which is a Class of java.lang package. And it is not a part of Reflection API.
+- Reflection API has the following ability:
+  - It has ability to interrogate existing objects,
+  - Find out what their classes are
+  - Find out about the inheritance tree.
+  - What the super classes are
+  - Find out where class is stored
+Example: 13-WalkInInheritance project

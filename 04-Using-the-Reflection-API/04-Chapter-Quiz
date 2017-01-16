@@ -1,0 +1,10 @@
+1. The Class class allows you to inspect and instantiate objects of an associated class _____.
+Ans: if you don't know its name.
+
+2. After using the Constructor<?> command to create a reference to a class’s methods,
+which of the following commands is an example of how to access the first constructor of the class?
+Ans: Constructor<?> con = constructors[0];
+
+3. It is not always possible to walk-down an inheritance tree because the subclasses may
+not reside in memory at the time.
+Ans: This is true.
