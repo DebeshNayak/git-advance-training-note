@@ -1,0 +1,11 @@
+Watching a directory for file changes:
+- Java 7's new Files API has a tool that lets you easily create a watch service,
+  a service that watches the contents of a directory, and reports when any of the
+  directory's contents are created, deleted, or modified.
+
+- To watch the contents of the directory on disk, listen for events, and then take
+  particular actions when those events occur. You can listen for the create, the
+  delete, and modify events and handle a single directory in this way. And if you
+  combine this code with say a directory walker, you can watch an entire directory
+  tree for any files that are placed, deleted, or otherwise modified in that area of your hard disk.
+Example: 27-WatchDirectory project

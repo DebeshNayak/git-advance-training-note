@@ -1,0 +1,15 @@
+1. If you have a text file at "\Workspace\example.txt", which Path class method
+  would you use to only get the name of the file?
+Ans: getFileName()
+
+2. If you have a text file at "\Workspace\example.txt", which Path class method would you use to only get the name of the file?
+Ans: None of these are true
+
+3. Which two arguments does the Files class method newBufferedWriter() require?
+Ans: target path and charset
+
+4. Which SimpleFileVisitor class method is invoked when the files of a directory are visited?
+Ans: visitFile()
+
+5. What is the Files class method that walks a file tree?
+Ans: walksFileTree()

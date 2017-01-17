@@ -1,0 +1,6 @@
+Managing files and directories:
+- In Java 7, once you know how to use the Path class to point to a directory or a file,
+  it's another simple step to start managing those files to be able to copy, delete, and
+  move them around.
+- To do this, you use a class called files, the second major part of this new package.
+Example: 23-ManageFiles project

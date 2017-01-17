@@ -1,0 +1,8 @@
+Walking the directory tree:
+- Java 7 new files API gives you the ability to easily walk a directory tree, starting
+  off at a parent directory and then examining all of its subfolders and subfolders of
+  subfolders and so on, and all of the files within those folders.
+- To implement this functionality, you create your own custom class that extends a class
+  called "SimpleFileVisitor".
+- As of now it may not be implemented in Android.
+Example: 25-FileTree project

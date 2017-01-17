@@ -1,0 +1,10 @@
+Finding files:
+- We can use a object called a Path Matcher to look at the names of each file as
+  you encounter them and find particular files based on file's names.
+- We can adapt this code by adding code that would read the contents of a file
+  and then find files based on that as well.
+- It would be slower because you're actually opening the file and reading all of the contents,
+  but if you take the code from earlier in this course, where I described how to read the contents
+  of a text file, and you integrate it with this code that walks the directory tree,
+  you'll be able to accomplish that as well.
+Example: 26-FindingFiles project

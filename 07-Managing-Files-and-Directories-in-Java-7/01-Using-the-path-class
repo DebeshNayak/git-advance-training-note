@@ -1,0 +1,7 @@
+Using the Path class:
+- In Java 7 there's a new system for working with directories and files.
+- The classes that are a part of the system are part of a package called "Java.nio",
+  for new input-output.
+- The core of this new system is a class called path that replaces the old file class.
+- A path can represent either a directory or a file
+Example: 22-PathClass project
