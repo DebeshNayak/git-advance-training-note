@@ -1,0 +1,11 @@
+1. Which if the following statements are true of asserts?
+Ans: - Assert is only used for debugging.
+- Assert can be disabled.
+- An exception is thrown if assert returns false
+
+2. The keyword finally allows you to clean up resources after an exception is thrown.
+Ans: True
+
+3. The try-with-resources architecture is available in _____ and removes the need
+  for the _____ keyword.
+Ans: Java 7, finally

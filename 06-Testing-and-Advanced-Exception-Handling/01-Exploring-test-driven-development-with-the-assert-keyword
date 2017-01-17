@@ -1,0 +1,14 @@
+Exploring test-driven development with the assert keyword:
+- Assert is a way of testing a condition your code.
+- For example, let's see you going to pass a value into a method, and you wanted
+  to make sure that that value matched a certain condition before you passed in.
+- You could assert that condition, you create the Assert command and then place
+  the condition after it, and if the Assert is false it'll throw an exception.
+- You can't depend on asserts for real functionality in your application, they are
+  only for testing when you're coding, and that's because asserts can be disabled.
+- The assert only works when you add a certain command line value after the call to
+  the virtual machine.
+- Asserts only work if we added the command line argument "-ea" to the virtual machine
+- You can use asserts in your applications wherever you want to check a condition.
+- Asserts are invaluable for detecting runtime error while coding
+Example: 18-UsingAsserts project

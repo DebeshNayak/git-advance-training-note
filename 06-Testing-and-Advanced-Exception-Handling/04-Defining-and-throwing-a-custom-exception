@@ -1,0 +1,5 @@
+Defining and throwing a custom exception:
+- While working with Try/Catch Block, often we need to write our own custom exception
+  classes and then use them in your code.
+- We can create custom exception classes and using the throw method to throw them and catch them.
+Example: 21-Throwing project

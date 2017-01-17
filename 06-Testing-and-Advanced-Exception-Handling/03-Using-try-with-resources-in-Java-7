@@ -1,0 +1,6 @@
+Using try with resources in Java 7:
+- By using this new Try With Resources syntax you'll significantly reduce the amount of code
+  it takes to clean up your resources after executing code that might throw an exception.
+- Now again, this only works in Java 7 or later.
+- If you're working in Android or in Java 6 or prior, you won't be able to use this syntax.
+Example: 20-TryWithResources project

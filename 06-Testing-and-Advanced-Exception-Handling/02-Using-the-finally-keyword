@@ -1,0 +1,13 @@
+Using the finally keyword:
+- The Try/catch block to wrap code that might throw an exception.
+- Try and Catch work on their own for code where you don't need to clean up,
+- But whenever you're using a resource that always needs be cleaned up, it's also a
+  good idea to use the keyword Finally.
+- A Finally block is code that executes after a try regardless of whether an exception
+  is thrown.
+- As long as the application is still running any code within the Finally block will be executed,
+  and it's a good place to clean up resources that otherwise might remain open.
+- By using a Finally Block with your Try/catch syntax, you can ensure that you're
+  cleaning up resources correctly and handling exceptions wherever you need to in your code.
+
+Example: 18-Finally project
