@@ -1,3 +1,4 @@
 Reading and writing text files:
 - We can read and write the content of text files using a lot less code and a lot
   simpler code, than was needed in previous versions of Java, older than Java SE 7.
+Example: 24-ReadingAndWriting project

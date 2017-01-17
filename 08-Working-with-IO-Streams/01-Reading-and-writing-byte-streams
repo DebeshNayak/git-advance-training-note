@@ -1,0 +1,5 @@
+Reading and writing byte streams:
+- Here we read and write files working with one byte at a time.
+- Streams are the lowest level approach to working with file system.
+- We can read and write both text and binary files using the FileInputStream and FileOutputStream.
+Example: 28-ByteStreams project

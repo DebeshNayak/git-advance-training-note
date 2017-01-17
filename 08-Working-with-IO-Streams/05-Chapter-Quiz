@@ -1,0 +1,12 @@
+1. The FileOutputStream class is meant to be used to read streams of raw bytes.
+Ans: This is false
+
+2. It is recommended the _______ class be used to read in streams of characters.
+Ans: FileReader
+
+3. Wrap FileWriters in a BufferedWriter class to improve memory management and
+  use system resources more efficiently while maintaining the advantages of the FileWriter class.
+Ans: This is true
+
+4. What Scanner class method could you use to determine if there is another token in your input?
+Ans: hasNext()

@@ -1,0 +1,9 @@
+Scanning tokenized text:
+- One of the most common cases in reading files is tokenized text.
+- For example, comma delimited files where you get lines of text separated by
+  commas, spaces, tabs, or other characters.
+- Java has a class that handles this automatically called the scanner class.
+- The scanner class can be used to easily read this sort of tokenized text, and
+  it works well to read very large files, grab the text from those files already
+  separated, and then process the text as needed in your application.
+Example: 31-ScanningText

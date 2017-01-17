@@ -1,0 +1,12 @@
+Using buffered streams:
+- When dealing with large text files, it's a good idea to wrap your FileReaders
+  and FileWriters inside classes that will buffer the operations.
+- Buffering the read and write operations is a good way of automatically managing
+  memory so that you're efficiently putting content into memory and taking it out.
+- It's a pretty simple operation. You can use the buffered reader and buffered writer
+  classes wrapped around any instance of a reader or writer such as FileReader and FileWriter.
+- You still get the advantages of internationalization with the FileReader and FileWriter,
+  that is they'll adapt automatically to different character sets.
+- With the buffered classes, you get improved memory management and a more efficient use of
+  system resources.
+Example: 30-BufferedStream project

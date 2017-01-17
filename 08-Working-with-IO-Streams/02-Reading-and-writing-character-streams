@@ -1,0 +1,9 @@
+Reading and writing character streams:
+- If you're working with character-based data, that is text files, it's recommended
+  to use classes named FileReader and FileWriter instead of FileInputStream and FileOutputStream classes.
+- Because the FileReader and FileWriter automatically handle character sets other
+  than UTF-8.
+- To read and write text files, the FileReader and FileWriter are the best classes to do it.
+  And they'll work whether you're working in Java 7 or in Android or previous versions of Java.
+
+Example: 29-CharacterStream project
