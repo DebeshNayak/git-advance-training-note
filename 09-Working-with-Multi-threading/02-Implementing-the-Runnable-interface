@@ -1,0 +1,8 @@
+Implementing the runnable interface:
+- There is another approach, creating a custom class that implements an interface called Runnable.
+- When you implement the runnable interface, it will have the same run method as when you extend
+  the Thread class as a super class.
+- Implementing Runnable interface results in a slightly more lightweight class that only does the
+  things you need instead of all the things that the Thread class does. But as you can see, it lets
+  you define and executes secondary processes just as easily as extending the Thread class.
+Example: 33-ImplementRunnable project

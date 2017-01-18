@@ -1,0 +1,8 @@
+Interrupting a thread:
+- When you run a secondary thread, it will run to completion or until an exception
+  occurs or when you explicitly interrupt it from the process that created it.
+- Here we will explicit interruption in the project Interrupt Thread.
+- The Main class finishes its execution, even after it calls the interrupt method
+  and the thread only throws its exception after that.
+- If you don't explicit interrupt then the thread execution carry on to completion
+  unless another exception is thrown.

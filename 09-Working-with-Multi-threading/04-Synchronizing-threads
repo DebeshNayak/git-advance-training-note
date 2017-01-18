@@ -1,0 +1,25 @@
+Synchronizing Thread:
+- There are many sorts of applications where multiple threads might need to share
+  a resource, and you will need to synchronize these threads so that only one thread
+  at a time has access to that resource.
+
+Example: 35-SyncThreads project
+
+- Notice that in the project we creating a single instance of the target object,
+  and passing that same reference into all three thread objects.
+
+- So when we get into the thread synchronization, they're all examining the same
+  target object to synchronize on, because all three classes are using the same target
+  object, and it's important that they will be exactly the same reference, only one of those objects
+  will be able to execute the synchronized code at a time, and because we have the sleep
+  command in there, the other two will have to wait, and they'll go at 2-second intervals.
+
+- It is up to the virtual machine to figure out and decide which thread will go first.
+
+- The important thing here is that we prevented these objects from using the shared resource simultaneously.
+
+- We designed the application so that only one can go through the synchronized code at a time
+  and the others have to wait.
+
+- And in this way I'll prevent problems from creeping into my application that otherwise might occur
+  from trying to share a resource that cannot be shared.

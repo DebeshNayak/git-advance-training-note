@@ -6,4 +6,4 @@ Scanning tokenized text:
 - The scanner class can be used to easily read this sort of tokenized text, and
   it works well to read very large files, grab the text from those files already
   separated, and then process the text as needed in your application.
-Example: 31-ScanningText
+Example: 31-ScanningText project

@@ -1,0 +1,12 @@
+Extending the thread class:
+- Multithreading is a process where you can have multiple things going on at the same time.
+- When you setup multithreading, you are implementing what Java calls concurrency,
+  concurrent operations that can execute simultaneously.
+- When you run code within a single class, say within the Main class, the process is linear;
+  only one thing can be executed at a time.
+- But in order to create multiple threads, you can either create your new classes that extend a
+  class called thread, or you can implement an interface.
+- The Thread class is a member of the java.lang package, so no need to add special import
+  statement for this
+Example: 32-ExtendingThread project (extending the Thread class to create a secondary thread for Java
+Application)

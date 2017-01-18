@@ -1,0 +1,14 @@
+1. Which of the following steps must you take to create your own thread class?
+Ans:
+- You must create a custom run function.
+- You must instantiate your new thread class.
+- You must extend the Thread class.
+
+2. Implementing a Runnable interface is a more lightweight method to create a secondary thread.
+Ans: True
+
+3. Call the interrupt method on the thread object to explicitly interrupt a thread that is already running.
+Ans: True
+
+4. Synchronizing your threads means they all run at the same time.
+Ans: False
